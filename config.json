@@ -1,0 +1,24 @@
+{
+  "server": {
+    "port": 3460,
+    "host": "0.0.0.0"
+  },
+  "llm": {
+    "provider": "openai",
+    "baseURL": "https://api.deepseek.com/v1",
+    "apiKey": "sk-61d17b00397d451c8acf5af781778dd9",
+    "model": "deepseek-chat",
+    "maxTokens": 2000,
+    "temperature": 0.7
+  },
+  "feishu": {
+    "appId": "",
+    "appSecret": "",
+    "verifyToken": "",
+    "encryptKey": ""
+  },
+  "auth": {
+    "mode": "simple",
+    "sessionSecret": "xueban-dev-secret-change-in-production"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "xueban",
+  "version": "2.0.0",
+  "description": "学伴 - 新人融入AI助手",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "multer": "^2.1.1"
+  }
+}
